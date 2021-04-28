@@ -5,7 +5,7 @@
  
  Advanced usage of this module consists of creating custom styles and the specific properties of individual indicators.
  
-Basic Usage:<br/>
+**Basic Usage**:<br/>
 1. Require the RadialIndicator module in your code, i.e.: require(game.ReplicatedStorage.RadialIndicator)<br/> 
 2. Call `RadialIndicator.Indicate(Target, Style, Properties)`<br/>
 *    `Target` must be either a Position (Vector3 value) or a Part. It is where your indicator will aim. It is a required parameter.<br/>
@@ -13,4 +13,17 @@ Basic Usage:<br/>
 *    `Properties` must either be `nil` or a table with properties for how the indicator should behave. This parameter is optional.<br/>
 **While `Properties` is indeed optional, it is recommended that you supply it with an `IgnoreList` value if your Target is a part. Failure to do so may result in unintended behavior because the module checks if your view of the target is obstructed.**
 
-Advanced Usage:
+Example:<br/>
+```
+local RadialIndicator = require(game.ReplicatedStorage.RadialIndicator)
+
+local ThisPart = Instance.new("Part")
+ThisPart.Size = Vector3.new(5, 5, 5)
+ThisPart.Parent = workspace
+
+RadialIndicator.Indicate(ThisPart, nil, {
+ IgnoreList = {ThisPart}
+})
+```
+
+**Advanced Usage**:
