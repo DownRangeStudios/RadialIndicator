@@ -1,5 +1,5 @@
  # RadialIndicator
- Module that places positional markers in a radius on your screen
+ ROBLOX Module that places positional markers in a radius on your screen
  
  Basic usage of this module consists of how to use it to apply the default indicator to a target.
  
@@ -14,4 +14,3 @@
 **While `Properties` is indeed optional, it is recommended that you supply it with an IgnoreList value if your Target is a part. Failure to do so may result in unintended behavior because the module checks if your view of the target is obstructed.**
 
 Advanced Usage:
-
