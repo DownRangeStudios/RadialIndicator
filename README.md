@@ -1,11 +1,11 @@
  # RadialIndicator
- ROBLOX Module that places positional markers in a radius on your screen
+ Module that places positional markers in a radius on your screen
  
  Basic usage of this module consists of how to use it to apply the default indicator to a target.
  
  Advanced usage of this module consists of creating custom styles and the specific properties of individual indicators.
  
-- Basic Usage:<br/>
+Basic Usage:<br/>
 1. Require the RadialIndicator module in your code, i.e.: require(game.ReplicatedStorage.RadialIndicator)<br/> 
 2. Call `RadialIndicator.Indicate(Target, Style, Properties)`<br/>
 *    `Target` must be either a Position (Vector3 value) or a Part. It is where your indicator will aim. It is a required parameter.<br/>
