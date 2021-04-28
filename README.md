@@ -3,7 +3,7 @@
  
  Basic usage of this module consists of how to use it to apply the default indicator to a target.
  
- Advanced usage of this module consists of creating custom styles and the specific properties of individual indicators.
+ Advanced usage of this module consists of creating custom styles and editing the specific properties of individual indicators.
  
 **Basic Usage**:<br/>
 1. Require the RadialIndicator module in your code, i.e.: require(game.ReplicatedStorage.RadialIndicator)<br/> 
@@ -13,7 +13,7 @@
 *    `Properties` must either be `nil` or a table with properties for how the indicator should behave, which is an advanced feature explained below. This parameter is optional.<br/>
 **While `Properties` is indeed optional, it is recommended that, even for basic usage, you supply it with an `IgnoreList` value if your Target is a part. Failure to do so may result in unintended behavior because the module checks if your view of the target is obstructed.**
 
-Example:<br/>
+*Basic Usage Example:*<br/>
 ```
 local RadialIndicator = require(game.ReplicatedStorage.RadialIndicator)
 
