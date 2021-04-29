@@ -1,5 +1,5 @@
  # RadialIndicator
- Module that places positional markers in a radius on your screen
+ ROBLOX Module that places positional indicators in a radius on your screen
  
  Basic usage of this module consists of how to use it to apply the default indicator to a target.
  
