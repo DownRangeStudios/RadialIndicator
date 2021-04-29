@@ -6,7 +6,7 @@
  Advanced usage of this module consists of creating custom styles and editing the specific properties of individual indicators.
  
 **Basic Usage**:<br/>
-1. Require the RadialIndicator module in your code, i.e.: require(game.ReplicatedStorage.RadialIndicator)<br/> 
+1. Require the RadialIndicator module in your client-sided code, i.e.: require(game.ReplicatedStorage.RadialIndicator)<br/> 
 2. Call `RadialIndicator.Indicate(Target, Style, Properties)`<br/>
 *    `Target` must be either a position (Vector3 value) or a part. It is where your indicator will aim. It is a required parameter.<br/>
 *    `Style` must either be `nil` or a string with the name of a Style in the Style library, which is an advanced feature explained below. This parameter is optional.<br/>
